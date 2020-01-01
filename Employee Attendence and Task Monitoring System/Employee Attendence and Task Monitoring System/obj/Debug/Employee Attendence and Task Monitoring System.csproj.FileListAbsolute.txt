@@ -1,0 +1,26 @@
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\bin\Debug\Employee Attendence and Task Monitoring System.exe.config
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\bin\Debug\Employee Attendence and Task Monitoring System.exe
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\bin\Debug\Employee Attendence and Task Monitoring System.pdb
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee Attendence and Task Monitoring System.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Presentation_layer.Admin_Info.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Presentation_layer.Create_Account.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Presentation_layer.Delete_Account.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Presentation_layer.InboxAll.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Form1.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Presentation_layer.Modify_Account.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Presentation_layer.Send_Message.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Presentation_layer.User_List.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Presentation_layer.User_Login_History.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Presentation_layer.Employee.Employee_Info.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Presentation_layer.Employee.Task_Manager.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Presentation_layer.Supervisor.Assign_Task.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Presentation_layer.Supervisor.Supervisor_Info.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Properties.Resources.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee Attendence and Task Monitoring System.csproj.GenerateResource.Cache
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee Attendence and Task Monitoring System.exe
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee Attendence and Task Monitoring System.pdb
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Presentation_layer.Change_Password.resources
+C:\Users\asus\Desktop\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee_Attendence_and_Task_Monitoring_System.Presentation_layer.timecalculate.resources
+E:\Courses\OOP2\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\bin\Debug\Employee Attendence and Task Monitoring System.exe.config
+E:\Courses\OOP2\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee Attendence and Task Monitoring System.exe
+E:\Courses\OOP2\Employee Attendence and Task Monitoring System\Employee Attendence and Task Monitoring System\obj\Debug\Employee Attendence and Task Monitoring System.pdb

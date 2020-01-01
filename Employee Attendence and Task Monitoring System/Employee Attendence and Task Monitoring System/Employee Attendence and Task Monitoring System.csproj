@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{65F047C9-5208-472A-8CAE-BEEE75CF8FDA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Employee_Attendence_and_Task_Monitoring_System</RootNamespace>
+    <AssemblyName>Employee Attendence and Task Monitoring System</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business Logic layer\BLL.cs" />
+    <Compile Include="Data Access Layer\Data.cs" />
+    <Compile Include="DataDataSet.cs">
+      <DependentUpon>DataDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\Admin Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\Admin Info.Designer.cs">
+      <DependentUpon>Admin Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\Change Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\Change Password.Designer.cs">
+      <DependentUpon>Change Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\Create Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\Create Account.Designer.cs">
+      <DependentUpon>Create Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\Delete Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\Delete Account.Designer.cs">
+      <DependentUpon>Delete Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\InboxAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\InboxAll.Designer.cs">
+      <DependentUpon>InboxAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\Login Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\Login Page.Designer.cs">
+      <DependentUpon>Login Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\Modify Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\Modify Account.Designer.cs">
+      <DependentUpon>Modify Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\Send Message.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\Send Message.Designer.cs">
+      <DependentUpon>Send Message.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\timecalculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\timecalculate.Designer.cs">
+      <DependentUpon>timecalculate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\User List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\User List.Designer.cs">
+      <DependentUpon>User List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\User Login History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\User Login History.Designer.cs">
+      <DependentUpon>User Login History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\Employee Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\Employee Info.Designer.cs">
+      <DependentUpon>Employee Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\Task Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\Task Manager.Designer.cs">
+      <DependentUpon>Task Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\Assign Task.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\Assign Task.Designer.cs">
+      <DependentUpon>Assign Task.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation layer\Supervisor Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation layer\Supervisor Info.Designer.cs">
+      <DependentUpon>Supervisor Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Presentation layer\Admin Info.resx">
+      <DependentUpon>Admin Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation layer\Change Password.resx">
+      <DependentUpon>Change Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation layer\Create Account.resx">
+      <DependentUpon>Create Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation layer\Delete Account.resx">
+      <DependentUpon>Delete Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation layer\InboxAll.resx">
+      <DependentUpon>InboxAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation layer\Login Page.resx">
+      <DependentUpon>Login Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation layer\Modify Account.resx">
+      <DependentUpon>Modify Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation layer\Send Message.resx">
+      <DependentUpon>Send Message.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation layer\timecalculate.resx">
+      <DependentUpon>timecalculate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation layer\User List.resx">
+      <DependentUpon>User List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation layer\User Login History.resx">
+      <DependentUpon>User Login History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation layer\Employee Info.resx">
+      <DependentUpon>Employee Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation layer\Task Manager.resx">
+      <DependentUpon>Task Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation layer\Assign Task.resx">
+      <DependentUpon>Assign Task.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation layer\Supervisor Info.resx">
+      <DependentUpon>Supervisor Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="DataDataSet.xsc">
+      <DependentUpon>DataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataDataSet.xss">
+      <DependentUpon>DataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
